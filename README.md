@@ -1,34 +1,51 @@
 # AirBnb_Seattle_Data_Analysis
 Udacity Introduction to Data Science Blog Post Project
 
-This repository is used for analyzing AirBnb data.
+This repository is a container for everything which was used for analyzing AirBnb data.
 
-## WHAT'S INCLUDED
+
+## Library Requirement
+pandas==1.0.3
+
+
+## WHAT'S INCLUDED In The Repo
 AirBnb_Seattle_Data_Analysis/
-|-- AirBnB_Seattle_Data_Analysis.ipynb
-|-- Data/
+|-- AirBnB_Seattle_Data_Analysis.ipynb  -- Python Notebook script to analyze and visualize the data
+|-- Data/  -- data folder containing the raw data
 |   |-- listings.csv
 
 ## DOCUMENTATION
 In order to run the script, download the files (keep the folder hierarchy as is) under Jupyter directory, open the script file in the Notebook and run.
 
-This project follows CRISP-DM methodology, and the following explains each phase:
-### BUSINESS UNDERSTANDING
-  Use the available datasets to find popular listings and find the differences from non-popular listings.  Comparing the pre-determined metadata in each group will help identifying what factors may help booking the property.  In this analysis, the property with 80% or more booking is defined as popular listing and less than 80% booking is grouped in non-popular listing.
-  Questions:
+## Motivation
+  I would like to find popular listings and find the differences from non-popular listings in order to provide tips to those who want to increase bookings.  
+  
+## Methodoloty
+  Comparing the pre-determined metadata in each group will help identifying what factors may help booking the property.  In this analysis, the property with 80% or more booking is defined as popular listing and less than 80% booking is grouped in non-popular listing.
+  
+## Questions:
   1.  Does property neighbourhood have effect on popularity?
   2.  Does Superhost status have effect on popularity?
   3.  Does Host ID Verification Status have effect on popularity?
   4.  Does Property Type have effect on popularity?
   5.  Does Host Response have effect on popularity?
+
+## Summary of the Analysis
+  1.  Some of the neighbourhood were identified as slightly more popular than others.
+  2.  Superhost status was slightly advantageous than non-Superhost status
+  3.  The difference for Host ID Verification status was very minimal.
+  4.  Entire property appealed to more customers than shared rooms and apartment.  
+  5.  Although being responsive appealed to more customers, but it does not necessarily have to be prompt.
+
   
-### DATA UNDERSTANDING
+## DATA Sources
   Datasets used in this analysis was collected from this source:  http://insideairbnb.com/get-the-data.html
   File location:  
       http://data.insideairbnb.com/united-states/wa/seattle/2021-02-21/data/listings.csv.gz
       http://data.insideairbnb.com/united-states/wa/seattle/2021-02-21/data/calendar.csv.gz   <-- This file could not be uploaded to this repository due to size limiation
-  
-  The data files were compressed CSV format.
+
+## DATA Description
+  The data files are in CSV format.
 
 """"listings.csv""""
   The file contains 4197 records and 74 fields.  The field list is as follows:
@@ -41,8 +58,5 @@ This project follows CRISP-DM methodology, and the following explains each phase
   The file contains 1531652 rows and 7 columns.  The field list is as follows:
 'listing_id', 'date', 'available', 'price', 'adjusted_price', 'minimum_nights', 'maximum_nights'  
   
- ### DATA PREPARATION
-  listings.csv and calendar.csv were used in this analysis as it contains information about each property and the number of days they are booked.  calendar.csv was used to determine the timeframe of the booking in this dataset.
-  
- ### Modeling
-  In this analysis, Machine Learning was not used, but regression technique was used to identify trends and relationship between the booking status and meta data.
+## Reference
+https://pandas.pydata.org/docs/reference/index.html
