@@ -30,4 +30,5 @@ DATA UNDERSTANDING
   The following columns did not contain any values and were removed:
         'bathrooms', 'calendar_updated'
 
- 
+ DATA PREPARATION
+  listings.csv and calendar.csv are going to be used in this analysis as it contains information about each property and the number of days they are booked.  calendar.csv was used to determine the timeframe of the booking in this dataset.
