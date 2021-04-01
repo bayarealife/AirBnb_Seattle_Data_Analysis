@@ -37,3 +37,6 @@ This project follows CRISP-DM methodology, and the following explains each phase
   
  ### DATA PREPARATION
   listings.csv and calendar.csv were used in this analysis as it contains information about each property and the number of days they are booked.  calendar.csv was used to determine the timeframe of the booking in this dataset.
+  
+ ### Modeling
+  In this analysis, Machine Learning was not used, but regression technique was used to identify trends and relationship between the booking status and meta data.
