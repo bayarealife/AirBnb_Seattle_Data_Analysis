@@ -14,7 +14,13 @@ In order to run the script, download the files (keep the folder hierarchy as is)
 
 This project follows CRISP-DM methodology, and the following explains each phase:
 ### BUSINESS UNDERSTANDING
-  Use the available datasets to find popular listings and find the differences from non-popular listings.  And comparing the metadata in each group will help identifying what factors may help booking the property.  In this analysis, the property with 80% or more booking is defined as popular listing and less than 80% booking is grouped in non-popular listing.
+  Use the available datasets to find popular listings and find the differences from non-popular listings.  Comparing the pre-determined metadata in each group will help identifying what factors may help booking the property.  In this analysis, the property with 80% or more booking is defined as popular listing and less than 80% booking is grouped in non-popular listing.
+  Questions:
+  1.  Does property neighbourhood have effect on popularity?
+  2.  Does Superhost status have effect on popularity?
+  3.  Does Host ID Verification Status have effect on popularity?
+  4.  Does Property Type have effect on popularity?
+  5.  Does Host Response have effect on popularity?
   
 ### DATA UNDERSTANDING
   Datasets used in this analysis was collected from this source:  http://insideairbnb.com/get-the-data.html
