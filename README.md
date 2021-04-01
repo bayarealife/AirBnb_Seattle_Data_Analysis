@@ -31,6 +31,7 @@ In order to run the script, download the files (keep the folder hierarchy as is)
   5.  Does Host Response have effect on popularity?
 
 ## Summary of the Analysis
+  The selected metadata -- Neighbourhood, Superhost Status, Property Type and Host Response all showed some patterns in each group except the diffference in Host ID Verification status was very minimal.
   1.  Some of the neighbourhood were identified as slightly more popular than others.
   2.  Superhost status was slightly advantageous than non-Superhost status
   3.  The difference for Host ID Verification status was very minimal.
