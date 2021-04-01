@@ -20,7 +20,7 @@ This project follows CRISP-DM methodology, and the following explains each phase
   Datasets used in this analysis was collected from this source:  http://insideairbnb.com/get-the-data.html
   File location:  
       http://data.insideairbnb.com/united-states/wa/seattle/2021-02-21/data/listings.csv.gz
-      http://data.insideairbnb.com/united-states/wa/seattle/2021-02-21/data/calendar.csv.gz
+      http://data.insideairbnb.com/united-states/wa/seattle/2021-02-21/data/calendar.csv.gz   <-- This file could not be uploaded to this repository due to size limiation
   
   The data files were compressed CSV format.
 
