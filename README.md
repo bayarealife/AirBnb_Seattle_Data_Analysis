@@ -8,13 +8,13 @@ This repository is a container for everything which was used for analyzing AirBn
 pandas==1.0.3
 
 
-## WHAT'S INCLUDED In The Repo
+## What's Included
 AirBnb_Seattle_Data_Analysis/
 |-- AirBnB_Seattle_Data_Analysis.ipynb  -- Python Notebook script to analyze and visualize the data
 |-- Data/  -- data folder containing the raw data
 |   |-- listings.csv
 
-## DOCUMENTATION
+## Documentation
 In order to run the script, download the files (keep the folder hierarchy as is) under Jupyter directory, open the script file in the Notebook and run.
 
 ## Motivation
@@ -23,7 +23,7 @@ In order to run the script, download the files (keep the folder hierarchy as is)
 ## Methodoloty
   Comparing the pre-determined metadata in each group will help identifying what factors may help booking the property.  In this analysis, the property with 80% or more booking is defined as popular listing and less than 80% booking is grouped in non-popular listing.
   
-## Questions:
+## Business Questions:
   1.  Does property neighbourhood have effect on popularity?
   2.  Does Superhost status have effect on popularity?
   3.  Does Host ID Verification Status have effect on popularity?
@@ -38,13 +38,13 @@ In order to run the script, download the files (keep the folder hierarchy as is)
   5.  Although being responsive appealed to more customers, but it does not necessarily have to be prompt.
 
   
-## DATA Sources
+## Data Sources
   Datasets used in this analysis was collected from this source:  http://insideairbnb.com/get-the-data.html
   File location:  
       http://data.insideairbnb.com/united-states/wa/seattle/2021-02-21/data/listings.csv.gz
       http://data.insideairbnb.com/united-states/wa/seattle/2021-02-21/data/calendar.csv.gz   <-- This file could not be uploaded to this repository due to size limiation
 
-## DATA Description
+## Data Description
   The data files are in CSV format.
 
 """"listings.csv""""
