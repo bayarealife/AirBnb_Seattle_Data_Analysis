@@ -24,7 +24,7 @@ In order to run the script, download the files (keep the folder hierarchy as is)
   Comparing the pre-determined metadata in each group will help identifying what factors may help booking the property.  In this analysis, the property with 80% or more booking is defined as popular listing and less than 80% booking is grouped in non-popular listing.
   
 ## Business Questions:
-  1.  Does property neighbourhood have effect on popularity?
+  1.  Does property neighborhood have effect on popularity?
   2.  Does Superhost status have effect on popularity?
   3.  Does Host ID Verification Status have effect on popularity?
   4.  Does Property Type have effect on popularity?
