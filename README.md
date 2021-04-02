@@ -1,8 +1,13 @@
+
+
+# The blog is published at this link:  
+## https://kyoko-desiderio.medium.com/seattle-airbnb-top-listings-trends-6b3b034acd12
+
+
 # AirBnb_Seattle_Data_Analysis
 Udacity Introduction to Data Science Blog Post Project
 
 This repository is a container for everything which was used for analyzing AirBnb data.
-The analysis is published here:  https://kyoko-desiderio.medium.com/seattle-airbnb-top-listings-trends-6b3b034acd12
 
 ## Library Requirement
 pandas==1.0.3
